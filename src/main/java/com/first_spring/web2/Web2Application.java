@@ -7,10 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Web2Application {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(Web2Application.class, args);
+		SpringApplication.run(Web2Application.class, args);
 
-		FirstClass firstClass = new FirstClass();
-		firstClass.testMethod();
 	}
 
 }
